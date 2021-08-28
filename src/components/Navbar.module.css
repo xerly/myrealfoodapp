@@ -1,0 +1,64 @@
+/* 
+====== 
+NavBar
+======
+*/
+
+.container {
+  width: 100vw;
+  height: 64px;
+  position: fixed;
+  background-color: var(--mainWhite);
+}
+nav {
+  padding: 2px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.logo-img {
+  width: 190px;
+}
+.btn-plus {
+  padding: 0.5rem;
+  margin-top: 1rem;
+  border: none;
+  color: white;
+  font-weight: 300;
+  font-size: 0.9rem;
+  letter-spacing: 0.5px;
+  border-width: 1px;
+  border-radius: 10px;
+  background-color: var(--primaryLightColor);
+  text-decoration: none;
+  cursor: pointer;
+}
+.btn-plus:hover {
+  text-decoration: underline var(--primaryLightColor);
+  background-color: var(--primaryDarkColor);
+  cursor: pointer;
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    height: 90px;
+  }
+  .logo-img {
+    width: 300px;
+  }
+  .btn-plus {
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    position: relative;
+  }
+  nav {
+    flex-direction: column;
+  }
+  .logo-img {
+    width: 250px;
+  }
+}

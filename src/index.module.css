@@ -1,0 +1,70 @@
+/* 
+====== 
+Variables 
+======
+*/
+
+:root {
+  --primaryLightColor: #24ac92;
+  --primaryColor: #11745b;
+  --primaryDarkColor: #178672;
+  --mainWhite: #fff;
+  --offWhite: #f7f7f7;
+  --mainBackground: #ffffff;
+  --mainOverlay: rgba(35, 10, 36, 0.4);
+  --mainBlack: #000;
+  --mainGrey: #ececec;
+  --darkGrey: #afafaf;
+  --mainRed: #db3921;
+  --mainTransition: all 0.3s linear;
+  --mainSpacing: 0.3rem;
+  --lightShadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
+  --darkShadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.5);
+  --mainBorderRadius: 0.25rem;
+  --smallWidth: 85vw;
+  --maxWidth: 40rem;
+  --fullWidth: 1170px;
+}
+
+/* 
+====== 
+Global Styles 
+======
+*/
+
+* {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  font-family: 'Poppins', sans-serif;
+  color: var(--mainBlack);
+  background: var(--mainBackground);
+  line-height: 1.4;
+  font-size: 1rem;
+  font-weight: 300;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 1.25rem;
+  letter-spacing: var(--mainSpacing);
+}
+p {
+  margin-bottom: 1.25rem;
+}
+img {
+  width: 100%;
+  display: block;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 5rem 0;
+}
