@@ -11,9 +11,8 @@ En la aplicación el usuario podrá:
 
 - Buscar producto mediante su código de barras
 - Ver la fotografía del producto, así como su nombre, marca, ingredientes y valor nutricional
-- Mediante un slider, poder ver los productos buscados anteriormente y poder volver a ver su contenido de manera fácil
 - Ver la aplicación optimizada para dispositivos móviles
-- ✨ Tener su propia lista de productos buscados ✨
+- ✨ Mediante un slider, poder ver los productos buscados anteriormente y poder volver a ver su contenido de manera fácil ✨
 
 ## Instalación
 
